@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "memory-game-c#/1.0.0": {
+        "runtime": {
+          "memory-game-c#.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "memory-game-c#/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

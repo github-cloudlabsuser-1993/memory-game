@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "2ullT225LTPSWnaEWucTWgZouHJg3moYVKdtZEEQ/Hg=",
+  "Source": "memory-game-c#",
+  "BasePath": "_content/memory-game-c#",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "memory-game-c#\\wwwroot",
+      "Source": "memory-game-c#",
+      "ContentRoot": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\",
+      "BasePath": "_content/memory-game-c#",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\index.html",
+      "SourceId": "memory-game-c#",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\",
+      "BasePath": "_content/memory-game-c#",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\script.js",
+      "SourceId": "memory-game-c#",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\",
+      "BasePath": "_content/memory-game-c#",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\style.css",
+      "SourceId": "memory-game-c#",
+      "SourceType": "Discovered",
+      "ContentRoot": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\",
+      "BasePath": "_content/memory-game-c#",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

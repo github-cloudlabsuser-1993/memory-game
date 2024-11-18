@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "c:\\LabFiles\\GitHub-Copilot-Hack-memory-game-c-\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.memory-game-c#.props",
+      "PackagePath": "build\\memory-game-c#.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.memory-game-c#.props",
+      "PackagePath": "buildMultiTargeting\\memory-game-c#.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.memory-game-c#.props",
+      "PackagePath": "buildTransitive\\memory-game-c#.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.memory-game-c#.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

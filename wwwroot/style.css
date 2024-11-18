@@ -1,0 +1,102 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #a602d8;
+}
+
+/* Game board container */
+.game-board{
+    width: 600px;
+}
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 150px); /* 4 columns */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 640px;
+    width: 100%;
+    box-sizing: border-box;
+    width:600px;
+}
+
+/* Card container styling */
+.card {
+    width: 150px;
+    height: 150px;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 7px 7px rgb(170, 5, 235);
+    float:left;
+}
+
+/* Card image styling */
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* When card is flipped */
+.card.flipped img {
+    opacity: 1;
+}
+
+.card.flipped {
+    background-color: white;
+}
+
+/* Matched card styling */
+.card.matched {
+    background-color: white; /* Keep the default background for matched cards */
+    pointer-events: none; /* Disable further interaction */
+}
+
+/* Styling for flipped and non-flipped cards */
+.card:not(.flipped) {
+    opacity: 0.7;
+}
+
+/* Win Message */
+#win-message {
+    display: none;
+    font-size: 2rem;
+    color: green;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive grid layout for smaller screens */
+@media (max-width: 768px) {
+    #game-board {
+        grid-template-columns: repeat(3, 150px); /* 3 columns on small screens */
+    }
+}
+
+@media (max-width: 480px) {
+    #game-board {
+        grid-template-columns: repeat(2, 150px); /* 2 columns on very small screens */
+    }
+}
